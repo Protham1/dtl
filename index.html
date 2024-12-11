@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Mechanics Timeline</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4c6ef5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .timeline {
+            position: relative;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        .event {
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .event h3 {
+            margin: 0 0 5px;
+        }
+        .event p {
+            margin: 5px 0 0;
+        }
+        .event a {
+            color: #4c6ef5;
+            text-decoration: none;
+        }
+        .event a:hover {
+            text-decoration: underline;
+        }
+        .event:before {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #4c6ef5;
+            border-radius: 50%;
+            top: 20px;
+            left: -25px;
+        }
+        .event:nth-child(odd) {
+            border-left: 3px solid #4c6ef5;
+        }
+        .event:nth-child(even) {
+            border-left: 3px solid #ff922b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Timeline of Quantum Mechanics</h1>
+        <p>Explore key discoveries and events in the field of quantum mechanics.</p>
+    </header>
+
+    <div class="timeline">
+        <div class="event">
+            <h3><a href="planck.html">1900 - Planck's Quantum Hypothesis</a></h3>
+            <p>Max Planck introduces the idea that energy is quantized, laying the foundation for quantum mechanics.</p>
+        </div>
+        <div class="event">
+            <h3><a href="einstein.html">1905 - Einstein's Photoelectric Effect</a></h3>
+            <p>Albert Einstein explains the photoelectric effect, demonstrating the particle nature of light.</p>
+        </div>
+        <div class="event">
+            <h3><a href="heisenberg.html">1925 - Heisenberg's Matrix Mechanics</a></h3>
+            <p>Werner Heisenberg formulates matrix mechanics, a cornerstone of quantum theory.</p>
+        </div>
+        <div class="event">
+            <h3><a href="schrodinger.html">1926 - Schrödinger's Wave Equation</a></h3>
+            <p>Erwin Schrödinger develops the wave equation to describe quantum states of particles.</p>
+        </div>
+        <div class="event">
+            <h3><a href="uncertainty.html">1927 - Uncertainty Principle</a></h3>
+            <p>Werner Heisenberg introduces the uncertainty principle, revealing limits to the precision of measurements.</p>
+        </div>
+        <div class="event">
+            <h3><a href="cat.html">1935 - Schrödinger's Cat Thought Experiment</a></h3>
+            <p>Erwin Schrödinger illustrates quantum superposition and measurement issues with his famous cat paradox.</p>
+        </div>
+        <div class="event">
+            <h3><a href="bell.html">1964 - Bell's Theorem</a></h3>
+            <p>John Bell formulates Bell's theorem, demonstrating the non-locality of quantum mechanics.</p>
+        </div>
+    </div>
+</body>
+</html>
